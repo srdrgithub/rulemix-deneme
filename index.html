@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="tr" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<!-- Tarayıcıdan ana ekrana kaydedilince tam ekran ve simgeli açılsın (deneme sürümü).
+     Uygulamanın içinde bu satırların etkisi yok. -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Rulemix">
+<meta name="theme-color" content="#0e1628">
+<meta name="robots" content="noindex">
+<link rel="apple-touch-icon" href="gorsel/simge-180.png">
+<link rel="icon" href="gorsel/simge-180.png">
+<title>Rulemix</title>
+<link rel="stylesheet" href="css/stil.css">
+</head>
+<body>
+<div id="uyg">
+  <header id="ust">
+    <button id="geri" class="simge" hidden></button>
+    <h1 id="baslik"></h1>
+    <div id="canGosterge" class="canGosterge" hidden></div>
+    <button id="ayarDugme" class="simge">⚙</button>
+  </header>
+  <main id="ekran" tabindex="-1"></main>
+</div>
+<div id="orti" class="orti" hidden><div id="kart" class="kart" role="dialog" aria-modal="true"></div></div>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
